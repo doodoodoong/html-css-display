@@ -1,0 +1,57 @@
+@import url(reset.css);
+
+:root {
+  --side-width: 1200px;
+}
+
+header {
+  background-color: black;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.title {
+  display: inline-block;
+  margin: 10px;
+  font-size: 2rem;
+  color: white;
+}
+
+.menu {
+  float: right;
+  vertical-align: middle;
+}
+
+.menu .home,
+.article,
+.member,
+.faq {
+  display: inline-block;
+  color: white;
+  vertical-align: middle;
+  margin: 20px;
+}
+
+.home:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+.article:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+.member:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+.faq:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}

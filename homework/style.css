@@ -1,0 +1,38 @@
+@import url(reset.css);
+
+:root {
+  --presentation--width: 1200px;
+  --presentation-height: 640px;
+}
+
+body {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+}
+
+nav {
+  background-color: #afafaf;
+  display: inline-block;
+  width: calc(var(--presentation--width) * 0.5);
+  border-radius: 10px;
+  height: calc(var(--presentation-height) * 0.1);
+}
+
+nav > ul {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+nav > ul > li {
+  display: inline-block;
+  height: calc(var(--presentation-height) * 0.1);
+  width: calc(var(--presentation--width) * 0.11);
+}
+nav > ul > li:hover > a {
+  background-color: black;
+  color: white;
+}

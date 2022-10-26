@@ -1,0 +1,27 @@
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu-1 > ul > li {
+  display: inline-block;
+  padding: 0 30px;
+}
+
+.menu-1 > ul {
+  background-color: #afafaf;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.menu-1 {
+  text-align: center;
+}
